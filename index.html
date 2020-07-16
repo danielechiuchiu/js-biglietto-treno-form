@@ -13,18 +13,18 @@
       <h2>calcola il prezzo del tuo biglietto</h2>
       <section class="tabella1">
         <div class="d-flex">
-          <div class="input">
-            <span for="">Nome e Cognome</span>
+          <div class="form_item">
+            <label for="">Nome e Cognome</label>
             <input type="text" id="form_nome">
           </div>
 
-          <div class="input">
-            <span>Km da percorrere</span>
+          <div class="form_item">
+            <label for="">Km da percorrere</label>
             <input type="number" id="form_km">
           </div>
 
-          <div class="input">
-            <span for="">Fascia d'età</span>
+          <div class="form_item">
+            <label for="">Fascia d'età</label>
             <select id="form_eta">
               <option value="maggiorenne">Maggiorenne</option>
               <option value="minorenne">Minorenne</option>
@@ -33,8 +33,8 @@
           </div>
         </div>
 
-        <div class="bottoni">
-          <button type="button" id="form_generale">Genera</button>
+        <div class="ms_button">
+          <button type="button" id="form_genera">Genera</button>
           <button type="button" id="form_annulla">Annulla</button>
         </div>
 
@@ -44,8 +44,8 @@
       <!-- inizio section biglietto -->
       <h2>il tuo biglietto</h2>
       <section id="biglietto" class="tabella2 hidden">
-        <h3>Dettaglio Passeggeri</h3>
-        <div class="box d-flex">
+        <h3>Dettaglio passeggeri</h3>
+        <div class="box-passeggeri d-flex">
           <div class="nome">
             <h3>nome passeggero</h3>
             <p><span id="bigl-nome"></span></p>
