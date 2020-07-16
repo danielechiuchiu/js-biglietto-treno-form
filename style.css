@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GENERALI */
+main {
+  background-color: #b91450;
+  height: 100vh;
+}
+
+h2 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.tabella1 {
+  background-color: white;
+  padding: 15px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px grey;
+}
+.tabella2 {
+  background-color: white;
+  padding: 15px;
+  width: 80%;
+  margin: 0 auto;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.hidden {
+  display: none;
+}
+.visible {
+  display: block;
+}
+
+/* FORM */
+
+
+.input {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.input input,
+.input select {
+  border: 1px solid #b91450;
+  border-radius: 5px;
+  padding: 5px 15px;
+  text-align: center;
+}
+
+.bottoni {
+  text-align: center;
+  padding-top: 25px;
+}
+.bottoni button {
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #b91450;
+  font-weight: bold;
+}
+.bottoni button:active {
+  background-color: #b91450;
+  color: white;
+}
+
+/* BIGLIETTO */
+.nome {
+  background-color: grey;
+  text-align: center;
+  padding: 15px;
+  color: white;
+}
+.biglietto h3{
+  text-transform: uppercase;
+}
+.biglietto h4 {
+  margin-bottom: 20px;
+}
+.box {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  margin-top: 15px;
+}
