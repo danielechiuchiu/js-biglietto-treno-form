@@ -35,7 +35,7 @@ buttonGenera.addEventListener('click',
       // Calcolo sconto e offerta biglietto
       if (formEtaValue == 'minorenne') {
         prezzo = prezzo - (prezzo * 20 / 100);
-        offerta = 'Biglietto Under18';
+        offerta = 'Biglietto minorenni';
       }
       else if (formEtaValue == 'over') {
         prezzo = prezzo - (prezzo * 40 / 100);
@@ -47,8 +47,8 @@ buttonGenera.addEventListener('click',
     biglNome.innerHTML = formNome.value;
     biglCosto.innerHTML = prezzo.toFixed(2);
     biglOfferta.innerHTML = offerta;
-    biglCarrozza.innerHTML = Math.floor(Math.random() * 10) ;
-    biglCodice.innerHTML = Math.floor(Math.random() * 10000);
+    biglCarrozza.innerHTML = Math.floor(Math.random() * 10) + 1;
+    biglCodice.innerHTML = Math.floor(Math.random() * 10000) + 1;
 
     // Biglietto visible
     biglietto.className = 'tabella2';
