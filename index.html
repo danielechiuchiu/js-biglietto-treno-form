@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Biglietto treno</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <main>
+
+      <!-- inizio section form -->
+      <h2>calcola il prezzo del tuo biglietto</h2>
+      <section class="tabella1">
+        <div class="d-flex">
+          <div class="input">
+            <label for="">Nome e Cognome</label>
+            <input type="text" id="form_nome">
+          </div>
+
+          <div class="input">
+            <span>Km da percorrere</span>
+            <input type="number" id="form_km">
+          </div>
+
+          <div class="input">
+            <span for="">Fascia d'età</span>
+            <select id="form_eta">
+              <option value="maggiorenne">Maggiorenne</option>
+              <option value="minorenne">Minorenne</option>
+              <option value="over">Over 65</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="bottoni">
+          <button type="button" id="form_genera">Genera</button>
+          <button type="button" id="form_annulla">Annulla</button>
+        </div>
+
+      </section>
+      <!-- fine section form -->
+
+      <!-- inizio section biglietto -->
+      <h2>il tuo biglietto</h2>
+      <section id="biglietto" class="tabella2 hidden">
+        <h3>Dettaglio passeggeri</h3>
+        <div class="box d-flex">
+          <div class="nome">
+            <h3>nome passeggero</h3>
+            <p><span id="bigl-nome"></span></p>
+          </div>
+          <div>
+            <h4>Offerta</h4>
+            <p><span id="bigl-offerta"></span></p>
+          </div>
+          <div>
+            <h4>Carrozza</h4>
+            <p><span id="bigl-carrozza"></span></p>
+          </div>
+          <div>
+            <h4>Codice</h4>
+            <p><span id="bigl-codice"></span></p>
+          </div>
+          <div>
+            <h4>Costo</h4>
+            <p><span id="bigl-costo"></span></p>
+          </div>
+        </div>
+      </section>
+      <!-- fine section biglietto -->
+
+      <script type="text/javascript" src="script.js"></script>
+    </main>
+  </body>
+</html>
