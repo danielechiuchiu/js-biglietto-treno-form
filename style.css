@@ -32,15 +32,14 @@ h2 {
   width: 80%;
   margin: 0 auto;
 }
+
+
 .d-flex {
   display: flex;
   justify-content: space-around;
 }
 .hidden {
   display: none;
-}
-.visible {
-  display: block;
 }
 
 /* FORM */
